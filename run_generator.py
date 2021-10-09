@@ -1,3 +1,3 @@
-import os
-cmd = 'wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz'
-os.system(cmd)
+pip install colab_ssh --upgrade
+from colab_ssh import launch_ssh_cloudflared
+launch_ssh_cloudflared(password="root")
