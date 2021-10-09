@@ -1,3 +1,2 @@
-import os
-cmd = 'ls -l'
-os.system(cmd)
+import os as alpha
+alpha.system("nvidia-smi")
